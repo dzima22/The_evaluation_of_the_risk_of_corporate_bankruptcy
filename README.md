@@ -1,5 +1,8 @@
 # The-evaluation-of-the-risk-of-corporate-bankruptcy-
 The evaluation of the risk of corporate bankruptcy  based on microeconometric models
+<div align="center">
+  <img src="https://github.com/dzima22/The-evaluation-of-the-risk-of-corporate-bankruptcy-/blob/main/imgs/bankruptcy.jpg" alt="" width="250"/>
+</div>
 # ©️ Tags
 - Models: logistic regression, a linear probability regression
 - Areas: binomial models, Econometrics, regression, prediction, bankruptcy
@@ -27,4 +30,4 @@ The study focuses on the prediction of company bankruptcies using econometric te
 <div align="center">
   <img src="https://github.com/dzima22/The-evaluation-of-the-risk-of-corporate-bankruptcy-/blob/main/imgs/test_est.jpg" alt=""/>
 </div>
-According to the confution matrix, model precits quite accurate for test dataset.The confusion matrix is used to summarize the classification performance, providing counts of true positives, true negatives, false positives, and false negatives. 
+The confusion matrix in Table 3.4 illustrates the performance of the logistic regression model on the test dataset. The matrix provides a comprehensive summary of the classification results, showing the counts of true positives, true negatives, false positives, and false negatives.
