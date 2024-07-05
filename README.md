@@ -3,6 +3,7 @@ The evaluation of the risk of corporate bankruptcy  based on microeconometric mo
 <div align="center">
   <img src="https://github.com/dzima22/The-evaluation-of-the-risk-of-corporate-bankruptcy-/blob/main/imgs/bankruptcy.jpg" alt="" width="250"/>
 </div>
+
 # ©️ Tags
 - Models: logistic regression, a linear probability regression
 - Areas: binomial models, Econometrics, regression, prediction, bankruptcy
