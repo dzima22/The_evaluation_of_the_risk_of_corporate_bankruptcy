@@ -21,13 +21,13 @@ The study focuses on the prediction of company bankruptcies using econometric te
 # 🏆 Findings
 
 <div align="center">
-  <img src="https://github.com/dzima22/The-evaluation-of-the-risk-of-corporate-bankruptcy-/blob/main/imgs/Rplot01.png" alt="" width="600"/>
+  <img src="https://github.com/dzima22/The-evaluation-of-the-risk-of-corporate-bankruptcy-/blob/main/imgs/Rcurve.png" alt="" width="600"/>
 </div>
 
 - ROC Curve and AUC: The Receiver Operating Characteristic (ROC) curve is plotted to visualize the trade-off between sensitivity and specificity for different threshold values
 - Area Under the Curve (AUC) is calculated to quantify the overall ability of the model to discriminate between the classes. So in this research `auc=0,94` so the predictive properties can be assessed as good, but it should be remembered that the study was conducted on a relatively small sample.
 
 <div align="center">
-  <img src="https://github.com/dzima22/The-evaluation-of-the-risk-of-corporate-bankruptcy-/blob/main/imgs/test_est.jpg" alt=""/>
+  <img src="https://github.com/dzima22/The-evaluation-of-the-risk-of-corporate-bankruptcy-/blob/main/imgs/test%20estimation.jpg" alt=""/>
 </div>
 The confusion matrix in Table 3.4 illustrates the performance of the logistic regression model on the test dataset. The matrix provides a comprehensive summary of the classification results, showing the counts of true positives, true negatives, false positives, and false negatives.
