@@ -39,7 +39,6 @@ data_learn <- rbind(data_good_learn, data_bad_learn)
 data_test <- rbind(data_good_test, data_bad_test)
 
 x=cor(dane_do_projektu1[4:9],method="pearson")
-x
 
 
 
@@ -57,42 +56,35 @@ dada <- melt(df)
 pp<- ggplot(dada, aes(x=value, fill=variable)) +
   geom_density(alpha=.9)+
   ggtitle("WO(Wskaznik wydajnosci operacyjnej majatku ogolem)")
-pp
 dada1 <- melt(df1)
 pp1<- ggplot(dada1, aes(x=value, fill=variable)) +
   geom_density(alpha=.9) +
   xlim(0,8)+
   ggtitle("OZ(Wskaznik ogolnego zadluzenia)")
-pp1
 dada2 <- melt(df2)
 pp2<- ggplot(dada2, aes(x=value, fill=variable)) +
   geom_density(alpha=.9) +
-  xlim(0,00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005)+
+  xlim(0,0005)+
   ggtitle("ROA(rentowosc)")
-pp2
 dada3 <- melt(df3)
 pp3<- ggplot(dada3, aes(x=value, fill=variable)) +
   geom_density(alpha=.9) +
   xlim(0,3)+
   ggtitle("BP(Plynnosc biezaca)")
-pp3
 dada4 <- melt(df4)
 pp4<- ggplot(dada4, aes(x=value, fill=variable)) +
   geom_density(alpha=.9) +
   xlim(0,3)+
   ggtitle("WRZ(Rotacja zobowiazan)")
-pp4
 dada5 <- melt(df5)
 pp5<- ggplot(dada5, aes(x=value, fill=variable)) +
   geom_density(alpha=.9) +
   xlim(0,8)+
   ggtitle("WOZ(wskaznik obslugi zadluzenia)")
-pp5
 
 figure <- ggarrange(pp, pp1,pp2,pp3,pp4,pp5,
                     labels = c("A", "B","C", "D","E","F"),
                     ncol = 2, nrow = 3)
-figure
 #models
 model <- lm(Y~WO+OZ+WRZ+ROA+WOZ+BP, data = dane_do_projektu1)
 summary(model)
